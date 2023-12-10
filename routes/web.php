@@ -19,4 +19,9 @@ Route::get('/', function () {
 Route::get('/test01',function(){
     return "ahmed mohammed";
 });
+// Route::prefix('admin')->group(function () {
+//     Route::get('index', function () {
+//         return view('admain.index');
+//     });
+// });
 
